@@ -253,149 +253,148 @@
     font-size: 14px !important;
     text-align: center;
     }
-   /*CONTACT*/
-    .spaceT{
-    margin-top: 10px;
-    text-align: left;
-    }
-
-    .emergency{
-    margin-top: 20px;
-    padding-right: 62%;
-    }
-
-    .spaceC{
-    margin-top: 100px;
-    padding-right: 50%;
-    }
-
-    .contact{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    }
-
-    .card-small{
-    width: 200px;
-    height: 170px;
-    border: 2px solid rgba(0,0,0,0.3);
-    border-radius: 5px;
-    margin: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    }
-
-    .card-small i{
-    padding-left: 20px;
-    padding-top: 20px;
-    font-size: 25px;
-    color: #3050CE;
-    }
-
-    .card-small h3{
-    padding-left: 20px;
-    padding-top: 20px;
-    font-size: 25px;
-    color: #3050CE;
-    font-weight: normal;
-    }
-
-    .card-small p{
-    padding-top: 10px;
-    padding-left: 50px;
-    font-size: 13px;
-    }
-
-    .card-small a{
-    position: absolute;
-    margin-top: 60px;
-    margin-left: 30px;
-    text-align: center;
-    }
-
-    .card-small:hover{
-    transform: scale(1.1);
-    box-shadow: 2px -1px 17px 2px rgba(0,0,0,0.46);
-    transition: 1s;
-    }
-
-    footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 400px;
-    background: rgba(170,179,192,0.5);
-    }
-
-    footer .texto{
-    display: inline-block;
-    width: 200px;
-    padding-left: 30px;
-    padding-top: 15px;
-    }
-
-    footer .logo{
-        color: #1f3e72;
-        font-weight: bolder;
-    }
-
-    footer .texto p{
-    margin-top: 20px;
-    font-size: 16px;
-    font-weight: normal;
-    }
-
-    footer .links{
-    display: flex;
-    flex-wrap: wrap;
-    position: absolute;
-    left: 550px;
-
-    }
-
-    footer .column{
-    margin-left: 50px;
-    margin-right: 50px;
-    }
-
-    footer .column h2{
-    color: #1F3E72;
-    font-weight: bolder;
-    }
-
-    footer .column ul{
-    padding-top: 10px;
-    }
-
-    footer .column ul li{
-    margin: 10px;
-    font-weight: normal;
-    }
-
-    footer .column ul li a{
-    color: #6D7B93;
-    list-style: none;
-    }
-
-    footer .derechos{
-    position: absolute;
-    padding-left: 30px;
-    padding-top: 300px;
     
+/*Contact*/
+    #container{
+        text-align: center;
     }
+    .spaceT{
+        margin-top: 10px;
+        text-align: left;
+    }
+    .emergency{
+        margin-top: 20px;
+        padding-right: 62%;
+    }
+    .spaceC{
+        margin-top: 100px;
+        padding-right: 50%;
 
-    footer .politicas{
-    position: relative;
-    left: 900px;
-    top: -10px;
-    margin-bottom: 15px;
     }
-
-    footer .politicas p{
-    display: inline-block;
-    margin-left: 15px;
-    margin-right: 15px;
+    .contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
+    .card-small{
+        width: 200px;
+        height: 170px;
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius: 5px;
+        margin: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .card-small i{
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 25px;
+        color: #3050ce;
+    }
+    .card-small h3{
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 25px;
+        color: #3050ce;
+    }
+    .card-small p{
+        padding-top: 10px;
+        padding-left: 50px;
+        font-size: 13px;
+    }
+    .card-small a{
+        position: absolute;
+        margin-top: 60px;
+        margin-left: 30px;
+        text-align: center;
+    }
+    .card-small:hover{
+        transform: scale(1.1);
+        box-shadow: 2px -1px 17px 2px rgba(0,0,0,0.46);
+    }
+    .btn{
+        filter: drop-shadow(0 0 0.25rem rgba(146, 185, 221, 0.514));
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 400px;
+        background: rgba(170,179,192,0.5);
+        }
+    
+        footer .texto{
+        display: inline-block;
+        width: 200px;
+        padding-left: 30px;
+        padding-top: 15px;
+        }
+    
+        footer .logo{
+            color: #1f3e72;
+            font-weight: bolder;
+        }
+    
+        footer .texto p{
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: normal;
+        }
+    
+        footer .links{
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        left: 550px;
+    
+        }
+    
+        footer .column{
+        margin-left: 50px;
+        margin-right: 50px;
+        }
+    
+        footer .column h2{
+        color: #1F3E72;
+        font-weight: bolder;
+        }
+    
+        footer .column ul{
+        padding-top: 10px;
+        }
+    
+        footer .column ul li{
+        margin: 10px;
+        font-weight: normal;
+        }
+    
+        footer .column ul li a{
+        color: #6D7B93;
+        list-style: none;
+        }
+    
+        footer .derechos{
+        position: absolute;
+        padding-left: 30px;
+        padding-top: 300px;
+        
+        }
+    
+        footer .politicas{
+        position: relative;
+        left: 900px;
+        top: -10px;
+        margin-bottom: 15px;
+        }
+    
+        footer .politicas p{
+        display: inline-block;
+        margin-left: 15px;
+        margin-right: 15px;
+        }
+    
